@@ -18,7 +18,7 @@ University of Utah<br>
 [Hobbies](#hobbies) -
 [Blog](./blog/)
 
-I often go by the moniker AB (or) sometimes Abi as people find it much easier to call me that way.
+I often go by the moniker "AB" (or) sometimes "Abi" as people find it much easier to call me that way.
 
 I am an aspiring computer scientist, pursuing masters in Computer Science at the [School of Computing](www.cs.utah.edu), as keen as mustard about low-level kernel hacking, systems programming and hard-real time embedded system design.
 
