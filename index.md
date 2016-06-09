@@ -20,6 +20,6 @@ University of Utah<br>
 <!--[Hobbies](#hobbies) -
 [Blog](./blog/)-->
 
-<img src="{{ site.baseurl }}/public/sandwich.jpg" alt="Headshot" width="100%" style="float: left;"/>
+<img src="{{ site.baseurl }}/public/sandwich.png" alt="Headshot" width="100%" style="float: left;"/>
 
 
