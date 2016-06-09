@@ -14,11 +14,12 @@ University of Utah<br>
 
 <p></p>
 
-[Hobbies](#hobbies) -
-[Blog](./blog/)
+[About Me](http://abhirambal.github.io/about/) -
+[Projects](http://abhirambal.github.io/projects/) -
+[Hobbies](http://abhirambal.github.io/hobbies/)
+<!--[Hobbies](#hobbies) -
+[Blog](./blog/)-->
 
 
 
-# <a name="activities"></a> Hobbies
 
- - Photography
