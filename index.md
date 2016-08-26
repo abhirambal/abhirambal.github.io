@@ -16,7 +16,7 @@ University of Utah<br>
 
 [About Me](http://abhirambal.github.io/about/) -
 [Projects](http://abhirambal.github.io/projects/) -
-[Hobbies](http://abhirambal.github.io/hobbies/)
+[Hobbies](http://abhirambal.github.io/hobbies/) - 
 [Blog](http://abhirambal.github.io/Blog/)
 <!--[Hobbies](#hobbies) -
 [Blog](./blog/)-->
