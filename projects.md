@@ -31,7 +31,9 @@ title: Projects/Research
 	extended [NetBricks](https://github.com/NetSys/NetBricks) with the protection domain library to contain faults.
 	Also implemented recovery mechanism and automatic checkpointing of objects.
 
-	Submitted for HotOS XVI
+	Related reading:
+		1. See [publications](http://abhirambal.github.io/publications/)
+		2. [Morning paper's discussion](https://blog.acolyer.org/2017/06/14/system-programming-in-rust-beyond-safety/) 
 
  - ### Mitigating SROP (Sigreturn Oriented Programming) attacks in Linux Kernel 
 	
