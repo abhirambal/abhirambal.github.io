@@ -1,11 +1,14 @@
 ---
 layout: page
 
+
 title: About
 ---
 
 I am Abhiram, an aspiring computer scientist, 
-pursuing masters in Computer Science at the [School of Computing](https://www.cs.utah.edu). 
+pursuing my Masters in Computer Science at the 
+[School of Computing](https://www.cs.utah.edu).
+ 
 My interests are low-level kernel hacking, systems programming and hard-real time 
 embedded system design.
 
