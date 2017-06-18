@@ -44,3 +44,6 @@ title: Projects/Research
 	Previously, an attacker would have to search for ROP gadgets to do this but now it can be accomplished with one sigreturn.
 
 	See [here](http://www.cs.vu.nl/~herbertb/papers/srop_sp14.pdf) for more information and the patch set [here](https://lkml.org/lkml/2016/2/6/166)
+
+ - ### Patches to Linux Kernel
+	- [Standard Deviation bug](https://git.kernel.org/pub/scm/linux/kernel/git/stable/stable-queue.git/tree/queue-4.11/staging-iio-tsl2x7x_core-fix-standard-deviation-calculation.patch?id=8f717a5ca7b61c0685645caf62f4589310954c7b)
