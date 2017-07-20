@@ -1,4 +1,5 @@
 ---
+
 layout: page
 ---
 
@@ -8,7 +9,8 @@ layout: page
 <span style="font-size: 150%;">Abhiram Balasubramanian</span><br>
 CS Graduate Student<br>
 University of Utah<br>
-<a href="mailto:abhiram@cs.utah.edu">abhiram@cs.utah.edu</a>
+<a href="mailto:abhiram@cs.utah.edu">abhiram@cs.utah.edu</a><br>
+<a href="gitlab">https://gitlab.flux.utah.edu/abhiram</a>
 </div>
 </div>
 
