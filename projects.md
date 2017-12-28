@@ -3,7 +3,7 @@ layout: page
 title: Projects/Research
 ---
 
- - ### Towards a fast NVMe layer for a decomposed kernel [Master Thesis](http://abhirambal.github.io/Thesis_final_u1009804.pdf)
+ - ### Towards a fast NVMe layer for a decomposed kernel ([Master Thesis](http://abhirambal.github.io/Thesis_final_u1009804.pdf))
 	Operating system (OS) kernel extensions, particularly device drivers, are one of the primary sources of 
 	vulnerabilities in commodity OS kernels. Vulnerabilities in driver code are often exploited by attackers, 
 	leading to attacks like privilege escalation, denial-of-service, and arbitrary code execution. 
@@ -13,11 +13,10 @@ title: Projects/Research
 	principles: (1) strong isolation of the driver code; (2) reuse of existing driver while making no or minimal changes 
 	to the source; and (3) achieving same or better performance compared to the nonisolated driver. In comparison to
 	existing driver isolation schemes like driver virtual machines and user-level device driver implementations, our work 
-	strives to avoid modifying existing code and implements an I/O path without incurring substantial performance overhead. 
-
-        We demonstrate our approach by isolating a unmodified driver for a null block device in the Linux kernel, achieving 
-	near-native throughput for block sizes ranging from 512B to 256KB and outperforming the nonisolated driver for block 
-	sizes of 1MB and higher.
+	strives to avoid modifying existing code and implements an I/O path without incurring substantial performance overhead.
+	
+	We demonstrate our approach by isolating a unmodified driver for a null block device in the Linux kernel, achieving near-native 
+	throughput for block sizes ranging from 512B to 256KB and outperforming the nonisolated driver for block sizes of 1MB and higher.
 
  - ### Software fault isolation framework in Rust (During my internship at Samsung Research America)
 	The main idea of the work was to utilize the safe features of Rust programming language for systems programming.
