@@ -3,7 +3,7 @@ layout: page
 title: Projects/Research
 ---
 
- - ### Towards a fast NVMe layer for a decomposed kernel ([Master Thesis](http://abhirambal.github.io/Thesis_final_u1009804.pdf))
+ - ### Towards a fast NVMe layer for a decomposed kernel ([Master's Thesis](http://abhirambal.github.io/Thesis_final_u1009804.pdf))
 	Operating system (OS) kernel extensions, particularly device drivers, are one of the primary sources of 
 	vulnerabilities in commodity OS kernels. Vulnerabilities in driver code are often exploited by attackers, 
 	leading to attacks like privilege escalation, denial-of-service, and arbitrary code execution. 
