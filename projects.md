@@ -3,26 +3,21 @@ layout: page
 title: Projects/Research
 ---
 
- - ### Fast NVMe layer for a decomposed kernel (Master thesis)
+ - ### Towards a fast NVMe layer for a decomposed kernel [Master Thesis](http://abhirambal.github.io/Thesis_final_u1009804.pdf)
+	Operating system (OS) kernel extensions, particularly device drivers, are one of the primary sources of 
+	vulnerabilities in commodity OS kernels. Vulnerabilities in driver code are often exploited by attackers, 
+	leading to attacks like privilege escalation, denial-of-service, and arbitrary code execution. 
+	Today, kernel extensions are fully trusted and operate within the core kernel without any form of isolation. 
+	But history suggests that this trust is often misplaced, emphasizing a need for some isolation in the kernel.
+	We develop a new framework for isolating device drivers in the Linux kernel. Our work builds on three fundamental 
+	principles: (1) strong isolation of the driver code; (2) reuse of existing driver while making no or minimal changes 
+	to the source; and (3) achieving same or better performance compared to the nonisolated driver. In comparison to
+	existing driver isolation schemes like driver virtual machines and user-level device driver implementations, our work 
+	strives to avoid modifying existing code and implements an I/O path without incurring substantial performance overhead. 
 
-	Operating system (OS) kernel extensions, particularly device drivers, are one of the main sources of
-	vulnerabilities in the commodity OS kernels widely used today. This is mainly because of bugs that are
-	routinely introduced in the driver code due to rapid development rate and fast changing device config-
-	urations. Vulnerabilities in driver code are often exploited by attackers that lead to privilege escalations,
-	DoS attacks, arbitrary code execution, etc. Today, kernel extensions are fully trusted and operate within
-	the core kernel without any form of isolation for better performance. But history suggests that this trust is
-	misplaced. As the security of many applications depend on the kernel to be secure, it becomes extremely
-	important to introduce some form of isolation to contain the effects of a vulnerable driver code.
-	We develop a new framework for isolating device drivers in the Linux kernel. 
-
-	Our work builds on
-	three key principles (1) strong isolation of driver code, (2) transparency for existing source (with no or
-	minimal changes to the source), and (3) same or better performance compared to the non-isolated driver.
-	Compared to existing device driver isolation techniques (device driver virtual machines, and clean-slate
-	user-level device driver implementations), our work remains transparent to the existing device driver
-	code, and implements a lean I/O path without introducing overheads of full-system virtualization. We
-	demonstrate our approach by isolating the NVMe (Non-Volatile Memory Express) driver in the Linux
-	kernel.
+        We demonstrate our approach by isolating a unmodified driver for a null block device in the Linux kernel, achieving 
+	near-native throughput for block sizes ranging from 512B to 256KB and outperforming the nonisolated driver for block 
+	sizes of 1MB and higher.
 
  - ### Software fault isolation framework in Rust (During my internship at Samsung Research America)
 	The main idea of the work was to utilize the safe features of Rust programming language for systems programming.
