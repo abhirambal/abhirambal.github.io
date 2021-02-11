@@ -1,6 +1,7 @@
 ---
 
 
+
 layout: page
 ---
 
@@ -23,7 +24,4 @@ Juniper Networks<br>
 [Hobbies](http://abhirambal.github.io/hobbies/) - 
 <!--[Hobbies](#hobbies) -
 [Blog](./blog/)-->
-
-<img src="{{ site.baseurl }}/public/bart.png" alt="Headshot" width="80%" style="float: left;"/>
-
 
