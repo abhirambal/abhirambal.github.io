@@ -1,5 +1,6 @@
 ---
 
+
 layout: page
 ---
 
@@ -7,8 +8,8 @@ layout: page
 <img src="{{ site.baseurl }}/public/AB.jpg" alt="Headshot" width="25%" style="float: left;"/>
 <div style="float: left; padding-left: 20px;">
 <span style="font-size: 150%;">Abhiram Balasubramanian</span><br>
-CS Graduate Student<br>
-University of Utah<br>
+Software Engineer<br>
+Juniper Networks<br>
 <a href="mailto:abhiram@cs.utah.edu">abhiram@cs.utah.edu</a><br>
 <a href="https://gitlab.flux.utah.edu/abhiram">Gitlab profile</a>
 </div>
